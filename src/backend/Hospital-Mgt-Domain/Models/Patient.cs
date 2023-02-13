@@ -24,7 +24,7 @@ namespace Hospital_Mgt_Domain.Models
         [StringLength(50, ErrorMessage = "Character length can not exceed 50.")]
         public string? FamilyName { get; set; }
 
-        //Contact Information(Address, Phone Number, Email)
+        //Contact Information(Address, Phone Number, Email) 
         [StringLength(3, ErrorMessage ="Maximum character length is 3.")]
         [Display(Name ="HouseNumner")]
         [Required(ErrorMessage ="Hosue Number is a required field.")]
